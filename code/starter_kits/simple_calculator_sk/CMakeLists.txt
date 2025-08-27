@@ -1,0 +1,1 @@
+add_executable(simple_calculator_sk simple_calculator_sk.cpp)

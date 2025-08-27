@@ -1,0 +1,198 @@
+{
+  "initialLocation": "Vestibule",
+  "locations": [
+    {
+      "name": "Vestibule",
+      "description": "You stand within the Vestibule, a small, dimly lit chamber that serves as the gateway to mysteries beyond. Cobwebs drape the corners, and a faint, musty odor pervades the air, suggesting long years without visitors. Ahead, the grand archway leads north into the Entrance Hall.",
+      "connections": [
+        {
+          "direction": "north",
+          "destination": "Entrance Hall"
+        }
+      ],
+      "imageName": "vestibule",
+      "items": [
+        {
+          "kind": "Rusty Key",
+          "description": "A small, rusty key lies forgotten in a corner, its purpose a mystery."
+        }
+      ]
+    },
+    {
+      "name": "Entrance Hall",
+      "description": "You find yourself in the Entrance Hall, a vast space with ceilings that vanish into shadows above. Echoes of your footsteps betray the hall's emptiness. Corridors branch off to the east and west, while the way south leads back to the Vestibule. An imposing statue of an unknown warrior stands sentinel in the center, its gaze fixed on the entrance.",
+      "connections": [
+        {
+          "direction": "west",
+          "destination": "Dark Corridor"
+        },
+        {
+          "direction": "east",
+          "destination": "Brightly Lit Corridor"
+        },
+        {
+          "direction": "south",
+          "destination": "Vestibule"
+        }
+      ],
+      "imageName": "entrance-hall",
+      "items": [
+        {
+          "kind": "Ancient Scroll",
+          "description": "Beneath the statue, an ancient scroll lies in wait, its contents promising knowledge lost to time."
+        }
+      ]
+    },
+    {
+      "name": "Dark Corridor",
+      "description": "The Dark Corridor, a passage cloaked in shadows, leads you deeper into the mystery. To the west, a Guard Room bars the way to the Treasure Chamber, hinting at secrets yet uncovered. To the east, the Entrance Hall offers a brief respite from the enveloping darkness.",
+      "connections": [
+        {
+          "direction": "west",
+          "destination": "Guard Room"
+        },
+        {
+          "direction": "east",
+          "destination": "Entrance Hall"
+        }
+      ],
+      "imageName": "dark-corridor",
+      "items": [
+        {
+          "kind": "Silver Dagger",
+          "description": "A finely crafted silver dagger lies on the ground, its blade gleaming eerily in the darkness."
+        }
+      ]
+    },
+    {
+      "name": "Guard Room",
+      "description": "The Guard Room, once a bustling hub for the defenders of this place, now stands silent. Rusting armor and weapons line the walls, and the heavy door to the north guards the Treasure Chamber. To the east, the Dark Corridor stretches back towards light.",
+      "connections": [
+        {
+          "direction": "north",
+          "destination": "Treasure Chamber"
+        },
+        {
+          "direction": "east",
+          "destination": "Dark Corridor"
+        }
+      ],
+      "imageName": "guard-room",
+      "items": [
+        {
+          "kind": "Rusted Armor",
+          "description": "A set of rusted armor stands in a corner, a silent sentinel of a bygone era."
+        }
+      ]
+    },
+    {
+      "name": "Brightly Lit Corridor",
+      "description": "Bathed in sunlight, the Brightly Lit Corridor offers a reprieve from the gloom. To the west, the Entrance Hall calls you back to shadow, while to the east, an Enchanted Study awaits, filled with knowledge and light.",
+      "connections": [
+        {
+          "direction": "west",
+          "destination": "Entrance Hall"
+        },
+        {
+          "direction": "east",
+          "destination": "Enchanted Study"
+        }
+      ],
+      "imageName": "brightly-lit-corridor",
+      "items": [
+        {
+          "kind": "Torch",
+          "description": "A torch burns steadily on the wall, offering light and a semblance of safety."
+        },
+        {
+          "kind": "Enchanted Map",
+          "description": "An enchanted map hangs on the wall, its destinations shifting and changing, yet always promising adventure."
+        }
+      ]
+    },
+    {
+      "name": "Enchanted Study",
+      "description": "The Enchanted Study, a room alight with magic, houses ancient books and scrolls. To the north, the Library of Echoes promises wisdom; to the south, the Silent Chamber guards its secrets. To the west, the Brightly Lit Corridor leads back to the crossroads.",
+      "connections": [
+        {
+          "direction": "north",
+          "destination": "Library of Echoes"
+        },
+        {
+          "direction": "south",
+          "destination": "Silent Chamber"
+        },
+        {
+          "direction": "west",
+          "destination": "Brightly Lit Corridor"
+        }
+      ],
+      "imageName": "enchanted-study",
+      "items": [
+        {
+          "kind": "Magic Crystal",
+          "description": "A glowing crystal floats in mid-air, pulsing with a soft, enchanting light."
+        }
+      ]
+    },
+    {
+      "name": "Library of Echoes",
+      "description": "Surrounded by towering shelves, the Library of Echoes whispers secrets of the past. Each book a gateway to another world, another story. The only exit lies to the south, leading back to the Enchanted Study.",
+      "connections": [
+        {
+          "direction": "south",
+          "destination": "Enchanted Study"
+        }
+      ],
+      "imageName": "library-of-echoes",
+      "items": [
+        {
+          "kind": "Ancient Manuscript",
+          "description": "An ancient manuscript, its pages filled with forgotten lore, lies open on a reading stand."
+        }
+      ]
+    },
+    {
+      "name": "Silent Chamber",
+      "description": "The Silent Chamber, a stark contrast to the library above, is a sanctuary of peace and stillness. Shadows cling to the corners, hiding secrets untold. The only exit is to the north, leading back to the Enchanted Study.",
+      "connections": [
+        {
+          "direction": "north",
+          "destination": "Enchanted Study"
+        }
+      ],
+      "imageName": "silent-chamber",
+      "items": [
+        {
+          "kind": "Silent Bell",
+          "description": "A bell, silent and unmoving, hangs from the ceiling, its purpose unknown and intriguing."
+        }
+      ]
+    },
+    {
+      "name": "Treasure Chamber",
+      "description": "The Treasure Chamber, guarded by the silent Guard Room to the south, gleams with untold riches. Gold and jewels reflect the flickering torchlight, casting dancing shadows on the walls. The path of retreat leads east, back through the Guard Room.",
+      "connections": [
+        {
+          "direction": "south",
+          "destination": "Guard Room"
+        }
+      ],
+      "imageName": "treasure-chamber",
+      "items": [
+        {
+          "kind": "Treasure Chest",
+          "description": "An ominous looking treasure chest sits in the center of the room, its contents unknown and inviting."
+        },
+        {
+          "kind": "Golden Crown",
+          "description": "A golden crown, studded with gems, rests atop a velvet cushion, radiating an aura of power."
+        },
+        {
+          "kind": "Mystical Tome",
+          "description": "A mystical tome, bound in dragon hide, lies open, its pages filled with ancient spells and lore."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+add_executable(invoice_sk_test_v0 invoice_sk_test.cpp)
+target_link_libraries(invoice_sk_test_v0 PRIVATE invoice_sk_lib_v0)
+target_link_libraries(invoice_sk_test_v0 PRIVATE Catch2::Catch2WithMain)

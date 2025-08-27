@@ -1,0 +1,14 @@
+John Doe,john.doe@example.com,25
+Alice Smith,alice.smith@company.org,67
+Bob Wilson,bob.wilson@email.net,19
+Mary Johnson,mary.johnson@test.com,72
+Charlie Brown,charlie.brown@domain.edu,30
+Diana Prince,diana.prince@hero.gov,28
+,empty.name@invalid.com,35
+Frank Miller,frank.noemail,45
+Grace Lee,grace.lee@valid.org,17
+Henry Davis,henry.davis@work.com,120
+Sam Taylor,sam.taylor@example.net,22
+Linda Garcia,linda@incomplete,33
+Mike Anderson,mike.anderson@company.com,66
+Sarah Wilson,sarah.wilson@email.org,24

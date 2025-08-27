@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.20)
+project(adventure_v5c_lib)
+
+add_library(${PROJECT_NAME}
+        Location.cpp
+        Location.h
+        World.cpp
+        World.h
+        WorldFactory.cpp
+        WorldFactory.h
+        Pawn.cpp
+        Pawn.h
+        actions/MoveAction.cpp
+        actions/MoveAction.h
+        actions/SkipTurnAction.cpp
+        actions/SkipTurnAction.h
+        Player.cpp
+        Player.h
+        Action.cpp
+        actions/ErrorAction.cpp
+        actions/ErrorAction.h
+        actions/QuitAction.cpp
+        actions/QuitAction.h
+        actions/InvestigateAction.cpp
+        actions/InvestigateAction.h
+        strategies/SelectActionInteractively.cpp
+        strategies/SelectActionInteractively.h
+        strategies/SelectLastAction.cpp
+        strategies/SelectLastAction.h
+        strategies/SelectRandomAction.cpp
+        strategies/SelectRandomAction.h
+        strategies/SelectAggressiveAction.cpp
+        strategies/SelectAggressiveAction.h
+        strategies/SelectHelpfulAction.cpp
+        strategies/SelectHelpfulAction.h
+        SelectActionStrategy.cpp
+        SelectActionStrategy.h
+        PlayerObserver.cpp
+        PlayerObserver.h
+        ActionTag.cpp
+)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(${PROJECT_NAME} PRIVATE adventure_data)

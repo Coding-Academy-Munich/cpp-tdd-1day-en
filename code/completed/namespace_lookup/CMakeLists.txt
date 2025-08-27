@@ -1,0 +1,1 @@
+add_executable(namespace_lookup namespace_lookup.cpp)

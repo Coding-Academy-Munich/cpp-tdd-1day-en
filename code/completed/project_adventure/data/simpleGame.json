@@ -1,0 +1,33 @@
+{
+  "initialLocation": "Room 1",
+  "locations": [
+    {
+      "name": "Room 1",
+      "description": "You are in a bright room. There is a door to the north.",
+      "connections": [
+        {
+          "direction": "north",
+          "destination": "Room 2"
+        }
+      ]
+    },
+    {
+      "name": "Room 2",
+      "description": "You are in a dark room. There is a door to the south.",
+      "connections": [
+        {
+          "direction": "south",
+          "destination": "Room 1"
+        }
+      ],
+      "imageName": "room2",
+      "items": [
+        {
+          "kind": "key",
+          "name": "Shiny Key",
+          "description": "A shiny key"
+        }
+      ]
+    }
+  ]
+}

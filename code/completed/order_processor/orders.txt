@@ -1,0 +1,4 @@
+premium,laptop,2,1200.50
+regular,mouse,25,15.99
+premium,keyboard,12,89.00
+regular,monitor,1,299.99

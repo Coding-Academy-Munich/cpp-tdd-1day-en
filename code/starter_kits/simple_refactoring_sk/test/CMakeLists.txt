@@ -1,0 +1,3 @@
+add_executable(simple_refactoring_sk_test orders_test.cpp)
+target_link_libraries(simple_refactoring_sk_test PRIVATE simple_refactoring_sk_lib)
+target_link_libraries(simple_refactoring_sk_test PRIVATE Catch2::Catch2WithMain)
