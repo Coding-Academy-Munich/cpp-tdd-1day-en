@@ -1,0 +1,20 @@
+{
+    "image": "mhoelzl/cam-cpp-dev:latest",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools"
+			]
+		}
+	},
+
+	// 'forwardPorts' makes a list of ports inside the container available locally.
+	"forwardPorts": [8000],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "gcc -v",
+
+	"remoteUser": "root"
+}

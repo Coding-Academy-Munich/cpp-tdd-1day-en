@@ -1,0 +1,2 @@
+add_executable(catch2_basics_sk catch2_basics.cpp)
+target_link_libraries(catch2_basics_sk Catch2WithMain)
